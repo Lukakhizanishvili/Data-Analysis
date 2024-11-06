@@ -1,0 +1,126 @@
+body{
+    overflow-x: hidden;
+    h1{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    p{
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+}
+
+.main-box{
+    width: 100%;
+    height: 100%;
+    .bg-img{
+        background-image: url(../img/solutions-main-img.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        h1{
+            font-size: 55px;
+            color: white;
+            margin-left: 10%;
+            padding-top: 24%;
+        }
+    }
+
+}
+
+.main-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-left: 15%;
+    position: absolute;
+    top: 95vh;
+    .box2{
+        .line{
+            margin-top: 20% !important;
+        }      
+    }
+    .box{
+        width: 300px;
+        height: 250px;
+        border: 1px solid gray;
+        margin: 15px;
+        background-color: #141416;
+        p{
+            margin-top: 5px;
+            margin-left: 10px;
+            font-size: 15px;
+            color: gray;
+        }
+        h1{
+            font-size: 22px;
+            color: white;
+            margin-left: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .line{
+            width: 90%;
+            height: 3px;
+            border-radius: 10px;
+            background-color: gray;
+            margin-top: 25%;
+            margin-left: 5%;
+        }
+        .foot{
+            display: flex;
+            justify-content: space-around;
+            gap: 55%;
+            margin-top: 10px;
+            .left{
+                display: flex;
+                gap: 25%;
+            }
+            .right{
+               .heart{
+                color: #FD6262;
+               }
+            }
+        }
+    }
+}
+
+footer{
+    position: absolute;
+    top: 230vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
+@media screen and (max-width:1000px){
+    .header2{
+        .active{
+            color: #FD6262;
+        }
+    }
+    .bg-img{
+        height: 100% !important;
+        h1{
+        font-size: 28px !important;
+        color: white !important;
+        margin-left: 25% !important;
+        }
+    }
+    .main-section{
+        margin-left: 13%;
+        width: auto;
+    }
+    .main-box{
+        height: 40%;
+    }
+    .main-section{
+        top: 40vh;
+    }
+    footer{
+        top: 420vh;
+    }
+}

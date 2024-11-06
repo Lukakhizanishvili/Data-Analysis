@@ -1,0 +1,301 @@
+body{
+    overflow-x: hidden;
+    h1{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    p{
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+}
+
+.main-section{
+    width: 100%;
+    height: 100%;
+    .bg-img{
+        background-image: url(../img/solutions-main-img.webp); 
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        h1{
+            font-size: 55px;
+            color: white;
+            margin-left: 10%;
+            padding-top: 30%;
+        }
+        p{
+            font-size: 40px;
+            color: white;
+            width: 500px;
+            margin-left: 10%;
+            margin-top: 2%;
+        }
+    }
+}
+.section-2{
+    width: 100%;
+    height: 100%;
+    .box-container{
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+        background-color: #141416;
+        display: flex;
+        .left-box{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 40%;
+            border: 1px solid gray;
+            p{
+                width: 300px;
+                line-height: 25px;
+                color: gray;
+                font-size: 20px;
+            }
+        }
+        .right-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid gray;
+            width: 100%;
+            height: 100%;
+            .box-1{
+                display: flex;
+                gap: 10%;
+                input{
+                    width: 250px;
+                    height: 50px;
+                    background-color: #141416;
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                }
+                label{
+                    display: none;
+                }
+            }
+            .boxx-1{
+                display: flex;
+                gap: 42%;
+                margin-bottom: 15px;
+                color: gray;
+            }
+
+            .box-2{
+                display: flex;
+                gap: 10%;
+                input{
+                    width: 250px;
+                    height: 50px;
+                    background-color: #141416;
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                }
+                label{
+                    display: none;
+                }
+            }
+            .boxx-2{
+                display: flex;
+                gap: 46%;
+                margin-bottom: 15px;
+                color: gray;
+            }
+
+            .box-3{
+                display: flex;
+                gap: 10%;
+                input{
+                    width: 250px;
+                    height: 50px;
+                    background-color: #141416;
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                }
+                label{
+                    display: none;
+                }
+            }
+            .boxx-3{
+                display: flex;
+                gap: 48%;
+                margin-bottom: 15px;
+                color: gray;
+            }
+
+            .box-4{
+                display: flex;
+                gap: 10%;
+                input{
+                    width: 250px;
+                    height: 50px;
+                    background-color: #141416;
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                }
+                label{
+                    display: none;
+                }
+            }
+            .boxx-4{
+                display: flex;
+                gap: 38%;
+                margin-bottom: 15px;
+                color: gray;
+            }
+
+            button{
+                width: 100%;
+                height: 50px;
+                color: #141416;
+                margin-top: 10%;
+                border: none;
+                border-radius: 10px;
+                background-color: #FD6262;
+                cursor: pointer;
+                a{
+                    color: #141416;
+                    font-size: 18px;
+                }
+                
+            }
+            button:hover{
+                background-color: #141416;
+                border: 1px solid white;
+                transition-duration:0.3s;
+                transition-delay: 0.3s;
+                a{
+                    color:white;
+                }    
+            }
+        }
+
+    }
+}
+footer{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+@media screen and (max-width:1000px) {
+    .bg-img{
+        height: 100% !important;
+        h1{
+            font-size: 35px !important;
+            margin-left: 30% !important;
+        }
+        p{
+            font-size: 22px !important;
+            width: 300px !important;
+            text-align: center !important;
+            margin-left: 17% !important;
+            margin-top: 5% !important;
+        }
+    }
+
+
+    .main-section{
+        height: 50% !important;
+    }
+    .box-container{
+        flex-direction: column;
+        .left-box{
+            border: none !important;
+            width: 62% !important;
+            margin-left: 21% !important;
+        }
+        .right-box{
+            width: 60%;
+            height: 100%;
+            border: none !important;
+            flex-direction: column;
+            margin-top: 20px;
+            .boxx-1{
+                display:none !important;
+            }
+            .boxx-2{
+                display:none !important;
+            }
+            .boxx-3{
+                display:none !important;
+            }
+            .boxx-4{
+                display:none !important;
+            }
+            .box-1{
+                flex-direction: column;
+                input{
+                    margin-top:15px;
+                    margin-left: 20px;
+                }
+                label{
+                    display: flex  !important;
+                    margin-left: 35%;
+                    margin-top: 8%;
+                    font-size: 22px;
+                    color: gray;
+                }
+            }
+            .box-2{
+                flex-direction: column;
+                input{
+                    margin-top:15px;
+                    margin-left: 20px;
+                }
+                label{
+                    display: flex  !important;
+                    margin-left: 35%;
+                    margin-top: 8%;
+                    font-size: 22px;
+                    color: gray;
+                }
+            }
+            .box-3{
+                flex-direction: column;
+                input{
+                    margin-top:15px;
+                    margin-left: 20px;
+                }
+                label{
+                    display: flex  !important;
+                    margin-left: 35%;
+                    margin-top: 8%;
+                    font-size: 22px;
+                    color: gray;
+                }
+            }
+            .box-4{
+                flex-direction: column;
+                input{
+                    margin-top:15px;
+                    margin-left: 10px;
+                }
+                label{
+                    display: flex  !important;
+                    margin-left: 35%;
+                    margin-top: 8%;
+                    font-size: 22px;
+                    color: gray;
+                }
+            }
+
+            button{
+                width: 55% !important;
+                margin-left: 22% !important;
+            }
+        }
+    }
+    footer{
+        position: absolute;
+        top: 220vh;
+        left: 23px;
+    }
+}

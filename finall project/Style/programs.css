@@ -1,0 +1,149 @@
+body {
+  overflow-x: hidden;
+}
+body h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+body p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.main-section h1 {
+  font-size: 50px;
+  color: white;
+  margin-left: 10%;
+}
+.main-section p {
+  font-size: 36px;
+  color: white;
+  margin-left: 10%;
+  width: 645px;
+  margin-top: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+.box .little-boxes {
+  width: 350px;
+  height: 560px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  gap: 6%;
+  justify-content: center;
+  align-items: start;
+}
+.box .little-boxes .top-box {
+  width: 90%;
+  height: 200px;
+  margin-left: 5%;
+  background-color: #1A1C1E;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.box .little-boxes .top-box .icon-1 {
+  font-size: 75px;
+  margin-left: 33%;
+  margin-top: 18%;
+  color: #FD6262;
+}
+.box .little-boxes .top-box .icon-2 {
+  font-size: 75px;
+  margin-left: 33%;
+  margin-top: 18%;
+  color: #FD6262;
+}
+.box .little-boxes .top-box .icon-3 {
+  font-size: 75px;
+  margin-left: 33%;
+  margin-top: 18%;
+  color: #FD6262;
+}
+.box .little-boxes h1 {
+  font-size: 30px;
+  color: white;
+  margin-left: 10%;
+}
+.box .little-boxes p {
+  font-size: 20px;
+  color: white;
+  margin-left: 10%;
+}
+.box .little-boxes .line {
+  width: 20%;
+  height: 2px;
+  background-color: gray;
+  border-radius: 15px;
+  margin-left: 10%;
+}
+.box .little-boxes button {
+  width: 150px;
+  height: 50px;
+  color: #141416;
+  border: none;
+  border-radius: 10px;
+  background-color: #FD6262;
+  cursor: pointer;
+  margin-left: 8%;
+}
+.box .little-boxes button a {
+  color: #141416;
+  font-size: 18px;
+}
+.box .little-boxes button:hover {
+  background-color: #141416;
+  border: 1px solid white;
+  transition-duration: 0.3s;
+  transition-delay: 0.3s;
+}
+.box .little-boxes button:hover a {
+  color: gray;
+}
+
+footer {
+  display: flex;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+  .header2 .active {
+    color: #FD6262;
+  }
+  .box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box .little-boxes button {
+    width: 80% !important;
+    margin-left: 10% !important;
+    margin-bottom: 5px;
+  }
+  .main-section {
+    padding-top: 30%;
+  }
+  .main-section .main-h1 {
+    text-align: center !important;
+    font-size: 31px !important;
+    width: 300px !important;
+    margin-left: 80px !important;
+  }
+  .main-section .main-p {
+    text-align: center;
+    font-size: 20px;
+    width: 300px;
+    margin-left: 85px;
+  }
+  footer {
+    position: absolute;
+    top: 350vh !important;
+  }
+}/*# sourceMappingURL=programs.css.map */
